@@ -27,5 +27,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        initAdapter()
+
+    }
+
+    private fun initAdapter() {
+        val adapter = Adapter()
+        val pokedex = Pokedex.getPokedex()
+        adapter.setData(pokedex)
+        binding.rVpokemon.adapter=adapter
     }
 }

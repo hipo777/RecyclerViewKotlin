@@ -1,4 +1,4 @@
-package com.example.kotlinexamples
+package org.demre.recyclerviewkotlin
 
 class Pokedex {
     companion object {
