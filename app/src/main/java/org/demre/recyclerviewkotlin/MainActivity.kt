@@ -5,7 +5,10 @@ import android.os.Bundle
 import org.demre.recyclerviewkotlin.databinding.ActivityMainBinding
 /* Pasos para crear un RecyclerView
 
- [ ] Item Layout
+ [X] Item Layout
+ [X] Agregar constraints
+ [X] Altura del item layout a wrap content
+ [X] Definir Id
  [ ] Layout con recycler view
  [ ] Asignar layout manager
  [ ] Adapter + ViewHolder
